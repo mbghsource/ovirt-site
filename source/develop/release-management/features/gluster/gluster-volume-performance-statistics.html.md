@@ -155,19 +155,19 @@ To view the profile info, "Details" sub-menu of the Profiling menu needs to be c
 
 *   GET: /api/clusters/<cluster_id>/glustervolumes/<volume_id>/profilestatistics
 
-` `<profileinfo>
-`      `<profilestatstype>`CUMULATIVE|INTERVAL`</profilestatstype>
-`      `<duration>`..`</duration>
-`      `<totalbytesread>`..`<totalbytesread>
-`      `<totalbyteswrite>`..`<totalbyteswrite>
-`      `<blockinfo>
-`      `<blockstatistics>`../`</blockstatistics>
-`      `<blockstatistics>`../`</blockstatistics>
-`      `</blockinfo>
-`      `<fopinfo>
-            `<fopstatistics>`...`</fopstatistics>`  
-`      `<fopstatistics>`...`</fopstatistics>
-`      `</fopinfo>
+<profileinfo>
+     <profilestatstype>CUMULATIVE|INTERVAL</profilestatstype>
+     <duration>..</duration>
+     <totalbytesread>..<totalbytesread>
+     <totalbyteswrite>..<totalbyteswrite>
+     <blockinfo>
+     <blockstatistics>../</blockstatistics>
+     <blockstatistics>../</blockstatistics>
+     </blockinfo>
+     <fopinfo>
+           <fopstatistics>...</fopstatistics>`  
+      <fopstatistics>...</fopstatistics>
+      </fopinfo>
 </profileinfo>
 
 *   POST: /api/clusters/<cluster_id>/glustervolumes/<volume_id>/startprofiling
